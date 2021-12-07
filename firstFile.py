@@ -37,7 +37,7 @@ class A:
 
             
 def try():
-    x = input()
+    x = 'x' # input()
     if x == '':
         print("a")
     # elif x == '':
@@ -47,7 +47,7 @@ def try():
 
         
         
-x = input()
+x = 'x' # input()
 if x == '':
     print("a")
 # elif x == '':
