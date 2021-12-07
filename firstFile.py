@@ -27,30 +27,30 @@ class A:
         if x == '':
                 # random comment
 
-            print("a")
+            x = 'a' # print("a")
         # elif x == '':
             # random comment
 
-        #     print("b")
+        #     x = 'b' # print("b")
         else:
-            print("c")
+            x = 'c' # print("c")
 
             
 def try():
     x = 'x' # input()
     if x == '':
-        print("a")
+        x = 'a' # print("a")
     # elif x == '':
-    #     print("b")
+    #     x = 'b' # print("b")
     else:
-        print("c")
+        x = 'c' # print("c")
 
         
         
 x = 'x' # input()
 if x == '':
-    print("a")
+    x = 'a' # print("a")
 # elif x == '':
-#     print("b")
+#     x = 'b' # print("b")
 else:
-    print("c")
+    x = 'c' # print("c")
