@@ -12,11 +12,11 @@ import time
 def decision_function(cvg_score, pvg_score, nvg_score):
     return cvg_score >= CVG_THRESH and pvg_score >= PVG_THRESH and pvg_score > nvg_score
 
-def consume(work):
-    (target_id, vg, t_trips) = work
-    cvg_score, pvg_score, nvg_score = triplet_match_exact(vg, t_trips)
-    return (target_id, vg, cvg_score, pvg_score, nvg_score)
-    # random comment
+#def consume(work):
+#    (target_id, vg, t_trips) = work
+#    cvg_score, pvg_score, nvg_score = triplet_match_exact(vg, t_trips)
+#    return (target_id, vg, cvg_score, pvg_score, nvg_score)
+#    # random comment
     
 class A:
         # random comment
